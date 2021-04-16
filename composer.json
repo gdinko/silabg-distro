@@ -1,0 +1,27 @@
+{
+    "name": "silabg/distro",
+    "description": "Sila BG Distro API v1 Consumer",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dinko Georgiev",
+            "email": "dinko359@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.0",
+        "guzzlehttp/guzzle": "^3.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "SilaBgDistro\\": "src/SilaBgDistro"
+        }
+    },
+    "config": {
+        "platform": {
+            "php": "5.3.29"
+        }
+    }
+}
